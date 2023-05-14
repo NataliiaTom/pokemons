@@ -1,5 +1,9 @@
 # Pokedex App
 
+https://nataliiatom.github.io/pokemons/
+
+---
+
 Getting ready to Pokemon GO launch, it became obviously we need a source of info about
 pokemons. In order to do this, we've created a client for https://pokeapi.co/
 
