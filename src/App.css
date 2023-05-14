@@ -27,7 +27,69 @@
 .App-link {
   color: #61dafb;
 }
+.InsideButtons {
+  margin: 10px;
+  width: 40%;
+  height: 50%;
+  text-align: center;
+}
 
+img {
+  /* height: 100%; */
+  height: 200px;
+  width: 100%;
+  display: block;
+}
+.PokeBox {
+  float: right;
+  width: 32%;
+  height: 350px;
+  display: block;
+  margin: 0.3%;
+}
+.HeaderButtons {
+  /* display: flex;
+  flex-direction: column; */
+  padding-top: 30px;
+}
+
+.MainContainer {
+  display: flex;
+  height: 200px;
+}
+.Buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Load {
+  margin: 1%;
+}
+.btn {
+  --bs-btn-font-size: 0.8rem !important;
+}
+
+.DetailsHeader {
+  font-weight: bold;
+  /* font-size: 110%; */
+  max-width: '100%';
+  word-break: break-all;
+}
+.DetailsContainer {
+  border: #a0a0a0 solid 1px;
+  font-size: 70%;
+  top: 20%;
+  border: #a0a0a0 solid 1px;
+  position: sticky;
+  padding: 5%;
+}
+.DetailsContainer td {
+  word-break: break-all;
+}
+.btn-poison {
+  color: white !important;
+  background-color: #d36cd3 !important;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
